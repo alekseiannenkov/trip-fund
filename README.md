@@ -47,7 +47,7 @@ foundryup
 Клонирование с зависимостями (они подключены как git-сабмодули в `lib/`):
 
 ```bash
-git clone --recurse-submodules <url-репозитория> trip-fund
+git clone --recurse-submodules https://github.com/alekseiannenkov/trip-fund trip-fund
 cd trip-fund
 # если клонировали без --recurse-submodules:
 git submodule update --init --recursive

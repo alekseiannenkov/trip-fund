@@ -1,0 +1,6 @@
+# Foundry
+cache/
+out/
+broadcast/*/31337/
+# env
+.env
